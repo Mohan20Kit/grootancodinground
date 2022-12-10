@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QR</title>
+</head>
+<body>
+<main>
+    <div class="container">
+        <h1>QR code generator</h1>
+        {% if img_name %}
+            <img src="/media/{{ img_name }}" alt="qr code">
+        {% endif %}
+    </div>
+</main>
+</body>
+</html>
